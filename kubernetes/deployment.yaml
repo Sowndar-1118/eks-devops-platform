@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: eks-platform-deployment
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: eks-platform
+
+  template:
+    metadata:
+      labels:
+        app: eks-platform
+
+    spec:
+      containers:
+      - name: eks-platform-container
+        image: devops-platform
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 5000
