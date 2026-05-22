@@ -1,7 +1,7 @@
-variable "image_name" {
-  default = "devops-platform"
+variable "region" {
+  default = "ap-south-1"
 }
 
-variable "container_name" {
-  default = "devops-container"
+variable "cluster_name" {
+  default = "eks-devops-cluster"
 }

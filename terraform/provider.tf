@@ -1,10 +1,14 @@
 terraform {
+  required_version = ">= 1.5.0"
+
   required_providers {
-    docker = {
-      source  = "kreuzwerker/docker"
-      version = "~> 3.6.0"
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 5.0"
     }
   }
 }
 
-provider "docker" {}
+provider "aws" {
+  region = var.region
+}

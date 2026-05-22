@@ -19,8 +19,8 @@ spec:
     spec:
       containers:
       - name: eks-platform-container
-        image: devops-platform
-        imagePullPolicy: Never
+        image: 075008446978.dkr.ecr.ap-south-1.amazonaws.com/eks-devops-app:latest
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 5000
