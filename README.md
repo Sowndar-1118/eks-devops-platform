@@ -2,9 +2,11 @@
 
 ## Project Overview
 
-This project demonstrates a complete cloud-native DevOps platform built using AWS EKS, Terraform, Docker, Kubernetes, Amazon ECR, and GitHub Actions.
+This project demonstrates a cloud-native application deployment platform built using AWS EKS, Terraform, Docker, Kubernetes, Amazon ECR, and GitHub Actions.
 
-The application is a Python Flask-based web application containerized using Docker, deployed to Amazon EKS Kubernetes cluster, and managed through Infrastructure as Code (IaC) using Terraform.
+The application is a Python Flask-based web application containerized using Docker, deployed to an Amazon EKS Kubernetes cluster, and managed through Infrastructure as Code (IaC) using Terraform.
+
+The project implements Continuous Integration (CI) using GitHub Actions for application validation and container image builds. Application deployment to Amazon EKS is performed through Kubernetes manifests and kubectl-based release workflows.
 
 ---
 
