@@ -1,4 +1,4 @@
-# AWS EKS End-to-End DevOps Platform
+# Cloud-Native Application Deployment on Amazon EKS using Terraform, Docker, ECR and GitHub Actions
 
 ## Project Overview
 
