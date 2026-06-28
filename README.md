@@ -303,7 +303,7 @@ Python Flask Application
 
 ### Amazon EKS Cluster
 
-![Amazon EKS Cluster](screenshots/EKS-Cluster.png)
+![Amazon EKS Cluster](screenshots/EKS-Cluster.jpg)
 
 
 ---
