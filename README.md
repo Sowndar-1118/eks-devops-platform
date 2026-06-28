@@ -296,37 +296,15 @@ Python Flask Application
 
 ### GitHub Actions Pipeline
 
-![GitHub Actions Pipeline](screenshots/Github-Actions-Successful-Pipeline.png)
+![GitHub Actions Pipeline](screenshots/Github-Actions-Pipeline.png)
 
 ---
 
-### Terraform Apply
-
-![Terraform Apply](screenshots/Terraform-Apply.png)
-
----
 
 ### Amazon EKS Cluster
 
 ![Amazon EKS Cluster](screenshots/EKS-Cluster.png)
 
----
-
-### Running Worker Node
-
-![Worker Node](screenshots/Worker-Node.png)
-
----
-
-### Kubernetes Pods
-
-![Kubernetes Pods](screenshots/Kubectl-Pods.png)
-
----
-
-### Kubernetes Services
-
-![Kubernetes Services](screenshots/Kubectl-Services.png)
 
 ---
 
