@@ -74,7 +74,7 @@ Python Flask Application
 
 ```text
 eks-devops-platform/
-
+│
 ├── .github/
 │   └── workflows/
 │       └── main.yml
@@ -96,6 +96,11 @@ eks-devops-platform/
 │   └── .terraform.lock.hcl
 │
 ├── screenshots/
+│   ├── ECR.png
+│   ├── EKS-Cluster.jpg
+│   ├── Github-Actions-Pipeline.png
+│   ├── Github-Repository.png
+│   └── Python-Flask-Application.png
 │
 └── README.md
 ```
